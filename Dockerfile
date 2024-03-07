@@ -1,6 +1,6 @@
 FROM ubuntu:22.04
 
-RUN sudo apt install tesseract
+RUN apt install tesseract
 
 RUN mkdir /app
 COPY ./requirements.txt /app/requirements.txt

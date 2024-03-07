@@ -1,6 +1,6 @@
 FROM ubuntu:22.04
 
-RUN apt install tesseract-ocr -y
+RUN apt update && apt install tesseract-ocr -y
 
 RUN mkdir /app
 COPY ./requirements.txt /app/requirements.txt

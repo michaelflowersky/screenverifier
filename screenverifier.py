@@ -1,3 +1,4 @@
+import os
 from optparse import OptionParser
 from os.path import isfile, join
 import json
